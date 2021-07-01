@@ -5,7 +5,7 @@ URL:
 
 Description: This program allows users to locate the tallest 100 skyscrapers in a map and filter by year completed. (a few sentences about your program and the queries and charts)"""
 
-pip install matplotlib 
+python -m pip install -U matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
